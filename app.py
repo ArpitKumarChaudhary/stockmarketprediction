@@ -4,7 +4,7 @@ from flask_cors import CORS
 import numpy as np
 import pandas as pd
 import os
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model 
 from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
