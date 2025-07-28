@@ -9,7 +9,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
 CORS(app)
-
+# Load the model
 # Load LSTM model once
 model = load_model("lstm_model.h5")
 
